@@ -9,3 +9,8 @@ console.log(Math.ceil(2.15)); //will return ceil value 3 forcefully
 console.log(Math.random()); //will return random numbers
 console.log(Math.random()*10); //will return random numbers from 0 to 10
 console.log(Math.round(Math.random()*10)); //will return random numbers from 0 to 10 round numbers
+
+const date = new Date(); //current date & time dekhabe
+console.log(date.toLocaleString('en-GB')); //britain or bd er format e dekhabe
+
+// note: date related aro onk kisu kora jay, proyojon e dekhe nite hobe
