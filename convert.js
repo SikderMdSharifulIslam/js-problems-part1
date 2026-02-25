@@ -9,3 +9,12 @@ function inchToFeet(inch){
 
 console.log(inchToFeet(75));
 
+function mileToKilometer(mile){
+    const kilo = mile * 1.60934;
+    return kilo;
+}
+
+function kilometerToMiles(kilo){
+    const miles = kilo * 0.621371;
+    return miles;
+}
